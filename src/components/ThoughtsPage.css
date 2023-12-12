@@ -1,0 +1,55 @@
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100%;
+  /* max-height: 120vh; */
+  /* height: 100vh; */
+}
+
+.top-nav {
+    margin-left:27vw;
+  /* background-color:rgb(223, 222, 222); */
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+.thought-box {
+  max-width: 80%;
+  margin-top: 30vh !important;
+  padding: 20px;
+  border: 2px solid grey; /* Stylish border */
+  border-radius: 8px;
+  background-color:  rgb(220, 228, 230); /* Unique colored background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.thought-title {
+  color: #007bff;
+}
+
+.thought-content {
+  margin-top: 10px;
+}
+
+.person-name {
+  margin: 1vh 0 3.5vh 0;
+  align-self: flex-end;
+  font-style: italic;
+  color: #555;
+}
+
+.button-heading{
+  margin-top:2vh;
+  color: rgb(113, 113, 113);
+}
+
+.hover-effect:hover{
+  background-color: #fff;
+}

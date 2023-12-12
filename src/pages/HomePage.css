@@ -1,0 +1,62 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center;  */
+  /* padding-top: 2vh; */
+}
+
+.sub-container-first {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-left: 41.5vw;
+}
+
+.sub-container-second {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 10%;
+}
+
+/* center content */
+
+.font-size-xl {
+  font-size: 2.5rem; /* Adjust the size as needed */
+}
+
+.font-size-lg {
+  font-size: 1rem; 
+  color: rgb(114, 107, 107);
+  width: 60%;
+  margin: 5vh auto 2vh auto;
+
+}
+
+.font-size-md {
+  font-size: 1rem; 
+  color: rgb(114, 107, 107);
+  width: 60%;
+  margin: 0 auto 7vh auto;
+}
+
+.m-5 {
+  margin: 2rem; /* Adjust the margin as needed */
+}
+
+.center-content{
+  width: 70%;
+  margin: 15vh auto 8vh auto;
+}
+
+.bottom-container{
+  background-color: #F1FAFE;
+  height: auto;
+  min-height: 30vh;
+  padding: 15vh 5vh;
+}
+
+.user-review-heading{
+  font-size: 2rem;
+  font-weight: bolder;
+}

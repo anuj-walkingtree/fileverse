@@ -1,0 +1,56 @@
+.login-body{
+margin : 0 50px;
+}
+
+.welcome-heading{
+    margin: 15vh 0 2vh 1vw;
+    /* font-family: Manrope; */
+}
+
+.login-account{
+    color: rgb(118, 117, 117);
+    font-weight: 500;
+    margin: 2.5vh 0 5vh 0;
+}
+
+/* SocialIcons.css */
+
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+    margin: 0 20px;
+    padding: 0 0 0 10px;
+}
+
+.social-icon-google{
+      background-color: #e1c4c3;
+  }
+  .social-icon-apple{
+    background-color: lightgray;
+  }
+  .social-icon-fb{
+    background-color: rgb(168, 206, 222);
+  }
+  
+  .apple-icon {
+    color: #8f9298 !important; /* Use !important to ensure that the style is applied */
+  }
+  
+  .google-icon {
+    color: #c1423e !important;
+  }
+  
+  .facebook-icon {
+    color: #4067ac !important;
+  }
+  

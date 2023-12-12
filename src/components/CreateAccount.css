@@ -1,0 +1,102 @@
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  gap: 10px; /* Adjust as needed for horizontal spacing */
+}
+
+
+.main-heading{
+  font-size: 4vh;
+font-weight: 800;
+margin-top: 1rem;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signUp{
+  font-size: 15px;
+}
+
+.icons {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+  margin: 0 20px;
+  padding: 0 0 0 10px;
+}
+
+.icons .bi-facebook {
+  color: #4067ac;
+}
+
+.facebook {
+  background-color: #c7d0e1;
+}
+
+.icons .bi-google {
+  color: #c1423e;
+}
+
+.google {
+  background-color: #edd5d5;
+}
+
+.icons .bi-apple {
+  color: #8f9298;
+}
+
+.apple {
+  background-color: #e3e5e8;
+}
+
+.body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+}
+
+/* Adjust space between label and icon and align icon and input horizontally */
+/* Add space between fields */
+.form-container .MuiFormControl-root {
+  margin-bottom: 15px;
+}
+
+/* Add space between icon and input */
+.form-container .MuiInputAdornment-root {
+  margin-right: 8px;
+}
+
+/* Adjust thickness of the box */
+.form-container .MuiFilledInput-root {
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.label-icon{
+  margin-top: 18px;
+  color: #333;
+}
+
+.field-background{
+background-color: 'blue';
+}
+
+.label-root {
+  /* color: #333 !important; or any other dark grey color you prefer */
+}
+
